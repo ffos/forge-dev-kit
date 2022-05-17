@@ -26,16 +26,16 @@
     prop-types "^15.5.10"
     use-memo-one "^1.1.1"
 
-"@atlaskit/button@^16.2.1":
-  version "16.2.1"
-  resolved "https://registry.yarnpkg.com/@atlaskit/button/-/button-16.2.1.tgz#4874f53064a904f04b88875e3a3df132edbde0b6"
-  integrity sha512-RpOVXzY6WoQCjdDFz2D2xCVOee6tntWGrkbXcQkg6rrYxmCSWev4Zd9GEWJlbWY+MZpbirK9vxTvJdZzQ3X7rQ==
+"@atlaskit/button@^16.3.1":
+  version "16.3.1"
+  resolved "https://registry.yarnpkg.com/@atlaskit/button/-/button-16.3.1.tgz#51258e70e48c10926660d7088d9416e26ed7d166"
+  integrity sha512-44lEkbTz/PqQyOt6gB2/RDUEEUcSTsZoHWTXWLMQUXgGLxtKaUya+lznQfngDVUBBoSN3abLXJXkykj/cj5Z3A==
   dependencies:
     "@atlaskit/analytics-next" "^8.2.0"
     "@atlaskit/ds-lib" "^1.4.0"
     "@atlaskit/spinner" "^15.1.0"
     "@atlaskit/theme" "^12.1.0"
-    "@atlaskit/tokens" "^0.8.0"
+    "@atlaskit/tokens" "^0.10.0"
     "@babel/runtime" "^7.0.0"
     "@emotion/core" "^10.0.9"
 
@@ -82,6 +82,16 @@
     "@atlaskit/ds-lib" "^1.4.0"
     "@atlaskit/tokens" "^0.8.0"
     "@babel/runtime" "^7.0.0"
+
+"@atlaskit/tokens@^0.10.0":
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/@atlaskit/tokens/-/tokens-0.10.0.tgz#34339915b5d9423f3065b4801b050145f6d04ed2"
+  integrity sha512-y7ClaaFbLSpnS1hwfgkU12vdHY+aZ2h/1DrA/CIPo2yThEirSOhtpTgU6nITnZTKGjNd2oIVvUodK5UZwXAUFA==
+  dependencies:
+    "@atlaskit/ds-lib" "^1.4.0"
+    "@babel/runtime" "^7.0.0"
+    "@babel/traverse" "^7.15.0"
+    "@babel/types" "^7.15.0"
 
 "@atlaskit/tokens@^0.8.0":
   version "0.8.3"
